@@ -1,9 +1,9 @@
-PWD /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW
+PWD /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.tex
-OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.log
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.tex
+OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
@@ -87,9 +87,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.aux
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.aux
-OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.aux
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux
+OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -104,14 +104,14 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.pdf
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+OUTPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -146,35 +146,35 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/b1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/c3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d1.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d2.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/d3.png
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.aux
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
-INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/HW/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/b1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/c3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d1.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d2.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/d3.png
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
+INPUT /Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

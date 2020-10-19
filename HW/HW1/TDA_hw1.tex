@@ -90,7 +90,7 @@ a) Determing the distances between the points $(2, 1), \ (4, 2), \ (0, 2)$ in me
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-b) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((0, 2), 6 \big)$ in $\alpha$ metric. 
+b) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((0, 2), 6 \big)$ in $\alpha$ metric. 
 
 \begin{align*} 
     B \big((0, 0), 1 \big) &= \{(0,0)\} \cup \{(x,y) \in \mathbb{R}^2 : \sqrt{x^2 + y^2} + \sqrt{0^2 + 0^2}< 1 \} 
@@ -133,7 +133,7 @@ b) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-c) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((2, 2), 3 \sqrt{2} \big)$ in $\beta$ metric. 
+c) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((2, 2), 3 \sqrt{2} \big)$ in $\beta$ metric. 
 
 \begin{align*} 
     B \big((0, 0), 1 \big) &= \{(x,y) \in \mathbb{R}^2 : \sqrt{(x - 0)^2 + (y - 0)^2} < 1 \}
@@ -181,7 +181,7 @@ c) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-d) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((2, 0), 3  \big)$ in $\gamma$ metric. 
+d) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \big((2, 0), 3  \big)$ in $\gamma$ metric. 
 
 \begin{align*} 
     B \big((0, 0), 1 \big) &= \{(0,y) \in \mathbb{R}^2 : |y - 0| < 1 \} \cup \{(x,y) \in \mathbb{R}^2 , \ x \neq 0: |x - 0| + |y - 0| < 1 \}
@@ -223,7 +223,28 @@ d) Drawing the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Discrete metric}
+The descrete metric on a space $X$ is defined as $d: \ X \times X \to \mathbb{R}$, where $d(x, y) = 1$ if $x = y$ and $1$ otherwise.
+
+\noindent
+a) Let $X = \mathbb{N}$. Describe $B \big(1, \frac{1}{2} \big)$ and $B \big(2, 1 \big)$.
+
+\begin{center}
+$ B \left(1, \frac{1}{2} \right) = \{ x \in \mathbb{N} : d(1, x) < \frac{1}{2} \} = \{ x = 1 : d(1, 1) = 0 \} = {1}. $
+\\
+$ B (2, 1) = \{ x \in \mathbb{N} : d(2, x) < 1 \} = \{ x = 2 : d(2, 2) = 0 \} = {2}. $
+\\
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent
+b) The triangle with vertices at distinct integers $a, b, c$ is always equilateral, because the distance between distinct points in discrete metric is always $1$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \end{document}
 
 
