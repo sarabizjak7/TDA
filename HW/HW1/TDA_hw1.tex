@@ -159,7 +159,7 @@ c) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \b
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=40mm]{c2.png}
+    \includegraphics[width=60mm]{c2.png}
     \caption{$B \big((1, 0), 2 \big)$ in metric $\beta$.}
 \end{figure}
 
@@ -176,7 +176,7 @@ c) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \b
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=60mm]{c3.png}
-    \caption{$B \big((2, 2), 3 \big)$ in metric $\beta$.}
+    \caption{$B \big((2, 2), 3 \sqrt{2} \big)$ in metric $\beta$.}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -225,6 +225,7 @@ d) Draw the open balls $B \big((0, 0), 1 \big)$, $B \big((1, 0), 2 \big)$, $B \b
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newpage
 \subsection{Discrete metric}
 The descrete metric on a space $X$ is defined as $d: \ X \times X \to \mathbb{R}$, where $d(x, y) = 1$ if $x = y$ and $1$ otherwise.
 
@@ -248,42 +249,121 @@ b) The triangle with vertices at distinct integers $a, b, c$ is always equilater
 \subsection{Homeomorphic spaces}
 
 Let $X = S^{n - 1} \times [0,1] \subset \mathbb{R}^{n+1}$ and $Y = \{ (x_1, \ldots, x_n) \in \mathbb{R}^n \ : \ 1 \leq x_1^2 + \cdots + x_n^2 \leq 4 \}$. What we want to do is to prove that $X$ and $Y$ are homeomorphic.
-To get an idea, we first look at the sketches of spaces $X$ and $Y$ for $n = 1$ and $n = 2$.
+To get an idea, we first look at the sketches of spaces $X$ and $Y$ for $n = 1$ and $n = 2$, denoted as $X_1, X_2$ and $Y_1, Y_2$.
 \\
-$n = 1:$
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
      \begin{minipage}{0.5\textwidth}
          \centering
-         \includegraphics[width=60mm]{X_n1.png}
-         \caption{$X = S^0 \times [0,1] \subset \mathbb{R}^2$.}
+         \includegraphics[width=50mm]{X_n1.png}
+         \caption{$X_1 = S^0 \times [0,1] \subset \mathbb{R}^2$.}
        \end{minipage}\hfill
      \begin{minipage}{0.5\textwidth}
          \centering
          \includegraphics[width=70mm]{Y_n1.png}
-         \caption{$ Y = \{ x_1 \in \mathbb{R} : 1 \leq x_1^2 \leq 4 \}$.}
+         \caption{$ Y_1 = \{ x_1 \in \mathbb{R} : 1 \leq x_1^2 \leq 4 \}$.}
        \end{minipage}\hfill
     \end{figure}
 
-\noindent
-\newpage
-$n = 2:$
-
-\begin{figure}[ht]
+\begin{figure}[ht!]
      \begin{minipage}{0.45\textwidth}
          \centering
-         \includegraphics[width=60mm]{X_n2.png}
-         \caption{$X = S^1 \times [0,1] \subset \mathbb{R}^3$.}
+         \includegraphics[width=50mm]{X_n2.png}
+         \caption{$X_2 = S^1 \times [0,1] \subset \mathbb{R}^3$.}
        \end{minipage}\hfill
      \begin{minipage}{0.55\textwidth}
          \centering
-         \includegraphics[width=60mm]{Y_n2.png}
-         \caption{$ Y = \{ (x_1, x_2) \in \mathbb{R}^2 : 1 \leq x_1^2 + x_2^2 \leq 4 \}$.}
+         \includegraphics[width=50mm]{Y_n2.png}
+         \caption{$ Y_2 = \{ (x_1, x_2) \in \mathbb{R}^2 : 1 \leq x_1^2 + x_2^2 \leq 4 \}$.}
        \end{minipage}\hfill
     \end{figure}
 
+\newpage
+\noindent
+We imagine space $X_2$ as an union of disjoint lines connecting upper and lower circle edges. Similarly, we imagine space $Y_2$. Let's present this idea in the following pictures.
+
+\begin{figure}[ht!]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=60mm]{X_n2_lines.png}
+        \caption{$X_2$ as an union of disjoint lines.}
+      \end{minipage}\hfill
+    \begin{minipage}{0.55\textwidth}
+        \centering
+        \includegraphics[width=60mm]{Y_n2_lines.png}
+        \caption{$Y_2$ as an unoin of disjoint lines.}
+      \end{minipage}\hfill
+   \end{figure}
+
+\noindent
+So we see that we can go from space $X_2$ to space $Y_2$ by "flipping" lines down on the plane. And equivalently, from $Y_2$ to $X_2$ we do the same thing but in reverse.
+\\
+Lines in $X_2$ have the form of $(1 - t) \cdot (x, y, 0) + t \cdot (x, y, 1)$ and lines in $Y_2$ have the form of $(1 - t) \cdot (x, y) + 2  t \cdot (x, y)$, where $ t \in [0, 1]$.
+\\
+
+Let's get back to $X$ and $Y$ spaces and use this idea for general n.
+Lines in $X$
+Let $f: X \to Y$ and let $g: Y \to X$. 
+
+
+
+\subsection{Homeomorphic spaces}
+
+Let $S_{+}^{n} = \{ (x_1, \ldots , x_{n+1}) \in S^n \ ; \ x_{n + 1} \geq 0\}$ and $B^n = \{ (x_1, \ldots, x_n) \in \mathbb{R}^n \ ; \ x_1^2 + \cdots x_n^2 \leq 1\}$. We want to prove that $S_{+}^{n}$ and $B^n$ are homeomorphic.
+To get an idea it's sufficient to look at shetches for $n = 1$.
+
+\newpage
+\begin{figure}[ht]
+    \begin{minipage}{0.5\textwidth}
+         \centering
+         \includegraphics[width=50mm]{X_n1_2.png}
+         \caption{$S_{+}^{1} = \{ (x_1, x_2)\in S^1 \ ; \ x_{2} \geq 0\}$.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+         \centering
+         \includegraphics[width=70mm]{Y_n1_2.png}
+         \caption{$B^1 = \{ x_1 \in \mathbb{R} \ ; \ X_1^2  \leq 1\}$.}
+    \end{minipage}\hfill
+\end{figure}
+
+To get from left to right, the idea is to project the circle down on the line (so we no longer use coordinate $x_2$ and coordinate $x_1$ stays the same), and from right to left to stretch the line up to circle (we add the new coordinate $x_2$ as a function of $x_1$). 
+
+\begin{figure}[ht]
+    \begin{minipage}{0.5\textwidth}
+         \centering
+         \includegraphics[width=70mm]{XY_2.png}
+         \caption{The idea for function $S_{+}^{1} \to B^1$.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+         \centering
+         \includegraphics[width=70mm]{YX_2.png}
+         \caption{The idea for function $B^1 \to S_{+}^{1}$.}
+    \end{minipage}\hfill
+\end{figure}
+\noindent
+Using that idea, we write the regulation for general n.
+\\
+Let $f: S_{+}^{n} \subset \mathbb{R}^{n + 1} \to B^n \subset \mathbb{R}^n$ and let $g: B^n \in \mathbb{R}^n \to S_{+}^{n} \in \mathbb{R}^{n + 1}$. 
+\\
+\\
+As said before, to determine function $f$, we just skip the last coordinate.
+$$ f(x_1, x_2, \ldots, x_{n + 1}) = (x_1, x_2, \ldots, x_n) $$
+For function $g$ we need to express the new coordinate $x_{n + 1}$ as a function of $(x_1, \ldots, x_n)$.
+Since the relation $x_1^2 + \cdots + x_n^2 + x_{n + 1}^2 = 1$ is valid, we express $x_{n+1}$ and get $x_{n + 1} = \sqrt{ 1 - x_1^2 - \cdots - x_n^2}$ (we take the positive root because we are in the $S_{+}^{n}$). 
+
+$$ g(x_1, \ldots, x_n) = \left( x_1, \ldots, x_n, \sqrt{ 1 - x_1^2 - \cdots - x_n^2} \right) $$
+Clearly, both function are continuous. 
+All there is left to do is to calculate both compositums.
+
+$$ (f \circ g): B^n \to S_{+}^{n} \to B^n $$
+$$ (f \circ g)(x_1, \ldots, x_n) = f \left(x_1, \ldots, x_n, \sqrt{ 1 - x_1^2 - \cdots - x_n^2} \right) = (x_1, \ldots, x_n) = \text{id}_{B^n}$$
+\\
+$$ (g \circ f): S_{+}^{n} \to B^n \to S_{+}^{n} $$
+$$ (g \circ f)(x_1, \ldots, x_n, x_{n + 1}) = g(x_1, \ldots, x_n) = \left(x_1, \ldots, x_n, \sqrt{ 1 - x_1^2 - \cdots - x_n^2} \right) = (x_1, \ldots, x_n, x_{n + 1}) = \text{id}_{S_{+}^{n}}$$
+\noindent
+$ \Longrightarrow S_{+}^{n} \cong B^n.$
+
+\section{Programming problems}
+
 
 \end{document}
-
-
-
