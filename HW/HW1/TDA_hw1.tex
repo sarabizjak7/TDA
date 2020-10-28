@@ -296,23 +296,50 @@ We imagine space $X_2$ as an union of disjoint lines connecting upper and lower 
    \end{figure}
 
 \noindent
-So we see that we can go from space $X_2$ to space $Y_2$ by "flipping" lines down on the plane. And equivalently, from $Y_2$ to $X_2$ we do the same thing but in reverse.
+We see that we can go from space $X_2$ to space $Y_2$ by "flipping" lines down on the plane. And equivalently, from $Y_2$ to $X_2$ we do the same thing but in reverse.
 \\
-Lines in $X_2$ have the form of $(1 - t) \cdot (x, y, 0) + t \cdot (x, y, 1)$ and lines in $Y_2$ have the form of $(1 - t) \cdot (x, y) + 2  t \cdot (x, y)$, where $ t \in [0, 1]$.
+Lines in $X_2$ have the form of $(1 - t) \cdot (x_1, x_2, 0) + t \cdot (x_1, x_2, 1)$ and lines in $Y_2$ have the form of $(1 - t) \cdot (x_1, x_2) + 2  t \cdot (x_1, x_2)$, where $ t \in [0, 1]$.
 \\
+To get from $X_2$ to $Y_2$ we have to project lines to $x_1 x_2-$plane (by skipping the third coordinate) and then stretch them with factor  $(1 + t)$, where $t \in [0,1]$.
+On the other hand, to get from $Y_2$ to $X_2$ we have to squeeze the lines to the unit circle (normalization) and then stretch them up from $0$ to $1$, so we write the new coordinate, denoted by t, as a function of $x_1$ and $x_2$.
+Following this idea, functions $f_2: X_2 \to Y_2$ and $g_2: Y_2 \to X_2$ are: \\
+$f_2(x_1, x_2, t) = (x_1 \cdot (1 + t), x_2 \cdot (1 + t))$ \ and \
+$g_2(x_1, x_2) = \left( \frac{x_1}{\sqrt{x_1^2 + x_2^2}}, \frac{x_2}{\sqrt{x_1^2 + x_2^2}}, \sqrt{x_1^2 + x_2^2} - 1 \right),$  where $t \in [0,1]$.
+\\
+\\
+Let's get back to $X$ and $Y$ spaces and use our idea for general n.
+Let $f: X \to Y$ and let $g: Y \to X$. Functions $f$ and $g$ are:
 
-Let's get back to $X$ and $Y$ spaces and use this idea for general n.
-Lines in $X$
-Let $f: X \to Y$ and let $g: Y \to X$. 
+$$ f(x_1, \ldots, x_n, t) =  \left( x_1 \cdot (1 + t), \ldots, x_n \cdot (1 + t) \right) = (1 + t) \cdot (x_1, \ldots, x_n) $$
 
+\noindent
+For function $g$ we need to express the new coordinate $t$ as a function of $(x_1, \ldots, x_n)$. For $t \in [0, 1]$ the relation $t = \sqrt{x_1^2 + \cdots x_n^2} - 1 $ is obvious. 
+$$ g(x_1, \ldots, x_n) = \left( \frac{x_1}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \ldots, \frac{x_n}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \sqrt{x_1^2 + \cdots + x_n^2} - 1 \right), $$ 
+\noindent
+Clearly, both function are continuous. 
+All there is left to do is to calculate both compositums.
 
+$$ (f \circ g): Y \to X \to Y $$
+\begin{align*} 
+    (f \circ g)(x_1, \ldots, x_n) &= f \left( \frac{x_1}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \ldots, \frac{x_n}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \sqrt{x_1^2 + \cdots + x_n^2} - 1 \right) \\
+    &= \left( \frac{x_1}{ \sqrt{x_1^2 + \cdots + x_n^2}} \cdot \left( \sqrt{x_1^2 + \cdots + x_n^2} \right), \ldots, \frac{x_n}{ \sqrt{x_1^2 + \cdots + x_n^2}} \cdot \left( \sqrt{x_1^2 + \cdots + x_n^2} \right) \right) \\
+    &= (x_1, \ldots, x_n) = \text{id}_Y
+\end{align*}
+
+$$ (g \circ f): X \to Y \to X$$
+\begin{align*} 
+    (g \circ f)(x_1, \ldots, x_n, t) &= g \left( x_1 \cdot (1 + t), \ldots, x_n \cdot (1 + t) \right) \\
+    &= (1 + t) \cdot \left( \frac{x_1}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \ldots, \frac{x_n}{ \sqrt{x_1^2 + \cdots + x_n^2}}, \sqrt{x_1^2 + \cdots + x_n^2} - 1 \right) \\
+    &= (x_1, \ldots, x_n, t) = \text{id}_X
+\end{align*}
+\noindent 
+$ \Longrightarrow X \cong Y $.
 
 \subsection{Homeomorphic spaces}
 
 Let $S_{+}^{n} = \{ (x_1, \ldots , x_{n+1}) \in S^n \ ; \ x_{n + 1} \geq 0\}$ and $B^n = \{ (x_1, \ldots, x_n) \in \mathbb{R}^n \ ; \ x_1^2 + \cdots x_n^2 \leq 1\}$. We want to prove that $S_{+}^{n}$ and $B^n$ are homeomorphic.
 To get an idea it's sufficient to look at shetches for $n = 1$.
 
-\newpage
 \begin{figure}[ht]
     \begin{minipage}{0.5\textwidth}
          \centering

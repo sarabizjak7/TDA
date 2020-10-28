@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  27 OCT 2020 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  28 OCT 2020 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,69 +426,75 @@ File: Y_n2_lines.png Graphic file (type png)
 Package pdftex.def Info: Y_n2_lines.png  used on input line 293.
 (pdftex.def)             Requested size: 170.71652pt x 170.912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--303
+Underfull \hbox (badness 10000) in paragraph at lines 298--312
 
  []
 
-[7 </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n2_lines.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n2_lines.png>]
-<X_n1_2.png, id=113, 427.5975pt x 283.0575pt>
+[7 </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n2_lines.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n2_lines.png>] (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (45.73537pt too wide) detected at line 327
+[]
+ []
+
+<X_n1_2.png, id=114, 427.5975pt x 283.0575pt>
 File: X_n1_2.png Graphic file (type png)
 <use X_n1_2.png>
-Package pdftex.def Info: X_n1_2.png  used on input line 319.
+Package pdftex.def Info: X_n1_2.png  used on input line 346.
 (pdftex.def)             Requested size: 142.26378pt x 94.17374pt.
-<Y_n1_2.png, id=114, 427.5975pt x 142.03062pt>
+<Y_n1_2.png, id=115, 427.5975pt x 142.03062pt>
 File: Y_n1_2.png Graphic file (type png)
 <use Y_n1_2.png>
-Package pdftex.def Info: Y_n1_2.png  used on input line 324.
+Package pdftex.def Info: Y_n1_2.png  used on input line 351.
 (pdftex.def)             Requested size: 199.16928pt x 66.15623pt.
-<XY_2.png, id=115, 426.09187pt x 282.05376pt>
+<XY_2.png, id=116, 426.09187pt x 282.05376pt>
 File: XY_2.png Graphic file (type png)
 <use XY_2.png>
-Package pdftex.def Info: XY_2.png  used on input line 334.
+Package pdftex.def Info: XY_2.png  used on input line 361.
 (pdftex.def)             Requested size: 199.16928pt x 131.84224pt.
-<YX_2.png, id=116, 519.44063pt x 346.29375pt>
+<YX_2.png, id=117, 519.44063pt x 346.29375pt>
 File: YX_2.png Graphic file (type png)
 <use YX_2.png>
-Package pdftex.def Info: YX_2.png  used on input line 339.
+Package pdftex.def Info: YX_2.png  used on input line 366.
 (pdftex.def)             Requested size: 199.16928pt x 132.7766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--350
+Underfull \hbox (badness 10000) in paragraph at lines 370--377
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 386--388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
-
- []
-
-[8 </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n1_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n1_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/XY_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/YX_2.png>]
-Overfull \hbox (41.22723pt too wide) detected at line 362
+Overfull \hbox (41.22723pt too wide) detected at line 389
 \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 g \OMS/cmsy/m/n/10.95 ^^N \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.95 x[]; [] ; x[]; x[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 g\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]; [] ; x[]\OT1/cmr/m/n/10.95 ) = [] = (\OML/cmm/m/it/10.95 x[]; [] ; x[]; x[]\OT1/cmr/m/n/10.95 ) = [][]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+[9 </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n1_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/Y_n1_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/XY_2.png> </Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/YX_2.png>] [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
  (/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `TDA_hw1.out' has not changed.
 (rerunfilecheck)             Checksum: E74C9F4302C5F73CBB2CBDD345C8438A;386.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 369.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
- 7599 strings out of 492649
- 112790 string characters out of 6129623
- 239366 words of memory out of 5000000
- 11328 multiletter control sequences out of 15000+600000
+ 8090 strings out of 492649
+ 117889 string characters out of 6129623
+ 241366 words of memory out of 5000000
+ 11815 multiletter control sequences out of 15000+600000
  11044 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,40p,547b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,40p,547b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf" (9 pages, 664197 bytes).
+Output written on "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf" (10 pages, 669035 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
