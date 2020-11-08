@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1604231343 "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.tex" "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf" "TDA_hw1" 1604231345
-  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux" 1604231345 7000 a2b1d1eefc0f3f992e64ef6b0a398cfd ""
-  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out" 1604231345 519 e6ab0ba13acec314ba02de2716aa94d1 ""
-  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.tex" 1604231340 21895 ec918a78b8c3bd1924b967b686276825 ""
+["pdflatex"] 1604856780 "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.tex" "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf" "TDA_hw1" 1604856783
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux" 1604856783 7384 4beac76ed3d311617260bd349dfa051f ""
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out" 1604856783 588 5e48d7658e71256e98065354de4f2520 ""
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.tex" 1604856779 25681 a690e3d76c24261d5d46a39335eefbdb ""
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/XY_2.png" 1603789724 44612 bca391eb2c0eb532f33a588964920074 ""
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n1.png" 1603187224 28129 5469d0e1fecd06de67688c887763acc7 ""
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/X_n1_2.png" 1603789520 35286 fc82a275994d1756966e26308fdc2c10 ""
@@ -24,6 +24,8 @@
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/example1.png" 1604230237 90177 10c9895b508dca75093f838b95f6c051 ""
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/example2.png" 1604230015 141988 d7b56672e84c6bed064c47bfa831837f ""
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/example3.png" 1604229878 176265 76f6c0c2963f07e1123661038d7b6f56 ""
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/j1.png" 1604785321 38688 0516f98c0c7def937865e96f2d1aaad3 ""
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/j2.png" 1604785610 38640 9d79d9391e4552d41936ec6b808a3f10 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -46,6 +48,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1480098701 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -60,6 +63,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1480098733 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1480098733 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1480098733 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1480098734 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -118,7 +122,7 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1535794464 4220279 fee64cedfdff37fe7b862d99b4d68f56 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   (generated)
-  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf"
-  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.log"
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.out"
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.log"
   "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.aux"
+  "/Users/sarabizjak/Documents/IŠRM magistrski/Topological data analysis/TDA/HW/HW1/TDA_hw1.pdf"

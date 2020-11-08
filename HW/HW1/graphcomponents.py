@@ -45,16 +45,14 @@ def findComponents(V, E):
     """
     graph = makeDictGraph(V, E)
     components = []
+    visited = []
     for v in V:
-        comp = dfs(graph, v)
-        components.append(list(comp))
-
-    unique = []
-    for element in components:
-        el = sorted(element)
-        if el not in unique:
-            unique.append(el)
-
-    return unique
-        
+        if v not in visited:
+            comp = dfs(graph, v)
+            components.append(sorted(list(comp)))
+            for element in list(comp):
+                visited.append(element)
+        else:
+            continue
+    return components
         
