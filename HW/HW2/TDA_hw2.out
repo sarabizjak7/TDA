@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Theoretical problems}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Triangulations}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Vietoris-Rips Complex and Cech Complex}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Voronoi diagram}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Chessboard Complex}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Vietoris-Rips Complex and Cech Complex in d metric}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Programming problems}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Line sweep triangulation}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Delauney triangulation}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Orientation of surfaces}{section.2}% 10
