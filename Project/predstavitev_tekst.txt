@@ -1,0 +1,11 @@
+Oglejmo si zdaj, kaj pomeni stabilnost diagrama še grafièno. Na levi imamo narisane vhodne toèke, na desni pa vztrajnostni diagram filtracije porojene z narašèanjem parametra Ripsovega kompleksa. Radi bi videli, kaj se zgodi z diagramom, èe toèkam na levi dodamo nek majhen šum. V primeru, da je diagram stabilen, bo diagram, ki bo pripadal novim, perturbiranim toèkam, samo malo drugaèen od tega, ki ga zdaj gledamo, to spremembo pa merimo z razdaljo bottleneck.
+
+V najinem primeru sva postopek perturbacije in raèunanja razdalje bottleneck izvedla stokrat.
+
+Primer histograma, kjer so vrednosti izraèunane za nièelno homološko grupo, je prikazan na grafu. Na histogram sva narisala še normalno porazdelitev z ustreznimi parametri. Na oko bi morda lahko rekli, da histogram sledi normalni porazdelitvi. Da pa bi subjektivni oceni dodelila neko vrednost, sva se odloèila normalnost testirati s Shapiro-Wilkovim testom normalnosti in za prikazan primer dobila p-vrednost 0.00022. Ker je to število manjše od 0.05, zavrnemo nièelno hipotezo o normalni porazdeljenosti.
+
+Poglejmo, kakšne rezultate sva dobila v višjih dimenzijah. V dimenziji 1 so rezultati zelo podobni, v dimenziji 2 pa vidimo, da histogram nekoliko bolj sledi normalni porazdelitvi, kar potrjuje tudi p-vrednost 0.91. Ta nam pove, da nièelne hipoteze ne moremo zavrniti. 
+
+Empirièno sva potrdila tudi sledeèo trditev o stabilnosti vztrajnostnih diagramov za Ripsove komplekse, ki pravi, da èe množici toèk priredimo epsilon-perturbacijo, potem je razdalja med dobljenima vztrajnostnima diagramoma najveè 2epsilon. Grafièno lahko to vidimo na slikah, kjer je epsilon narisan z zeleno èrto. Zanimivo je še opaziti, da se razdalja bottleneck giblje v povpreèju pod ali pa okoli vrednosti epsilon.
+
+Opazila sva, da je najveè možnosti za izboljšave predvsem v izraèunu veè kot le stotih vrednosti razdalje bottleneck. S tem bi lahko histograme bolj kredibilno primerjala z normalno porazdelitvijo.

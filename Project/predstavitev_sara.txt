@@ -1,0 +1,38 @@
+﻿ANALIZA VZTRAJNOSTNIH DIAGRAMOV
+
+
+Cilj najinega projekta je bil analizirati stabilnost vztrajnostnih diagramov Ripsovih kompleksov
+
+. Za začetek, preden predstaviva rezultate in jih podiskutirava, se spomnimo še nekaj pomembnih pojmov in definicij za potrebe te seminarske naloge.
+
+
+
+* ------------------- *
+
+
+
+RIPSOV KOMPLEKS je abstrakstni simplicialni kompleks, za katerega velja:
+  - da je množica oglišč enaka množici točk, na katerih je Rips zgrajen,
+  - podmnožica množice S, ki jo označimo s sigma, je simpleks natanko tedaj, ko je premer podmnožice sigma največ r
+
+. Podmožica sigma je simpleks v Ripsu natanko tedaj, ko velja, da je presek dveh zaprtih krogel s polmerom r/2 v katerih koli dveh točkah iz sigme neprazen.
+
+
+
+FILTRACIJA kompleksa K je zaporedje kompleksov K0 <= K1 <= ... <= Kn = K.
+
+ Naša filtracija je porojena z naraščanjem parametra r za Ripsov kompeks, ki ji ustreza tudi zaporedje homoloških grup.
+Če si predstavljamo gradnjo Ripsa tako, da okoli točk konstruiramo zaprte krogle in opazujemo njihove preseke, potem skozi to filtracijo večamo polmer oz. premer teh krogel.
+ Zanima nas, kako se oblika Ripsovega kompleksa razvija skozi filtracijo, tj. kako se spreminja z večanjem parametra r. 
+Vse te razlike v zaporedju homoloških grup, ki jih porodi filtracija, so zakodirane in prikazane z VZTRAJNOSTNIM DIAGRAMOM. 
+
+
+
+* ------------------- *
+
+
+Pri analizi STABILNOSTI se vprašamo, kako majhne spremembe začetnih podatkov vplivajo na vztrajnostni diagram.
+Zanimalo nas bo torej, če se z majhno spremembo začetnih točk tudi vztrajnostni diagram ustrezno malo spremeni.
+ Stabilnost lahko seveda poskusimo ugotoviti z opazovanjem vztrajnostnih diagramov, vendar si želimo formalnejšega in bolj objektivnega pristopa, zato vpeljimo še pojem BOTTLENECK razdalje, ki nam poda razdaljo med dvema diagramoma.
+
+ BOTTLENECK razdalja med vztrajnostnima diagramoma X in Y je definirana kot ....
